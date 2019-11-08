@@ -3,8 +3,7 @@ var app = new Vue({
   data:{
     product: 'Socks',
     image: './assets/vmSocks-green.jpg',
-    description: 'Great socks!',
-    inventory: 0,
+    inStock: true,
     details: ["80% cotton", "20% polyester", "Gender-neutral"],
     variants: [
       {
